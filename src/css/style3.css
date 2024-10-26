@@ -1,0 +1,88 @@
+html {
+    min-height: 100%;
+    background-image: url(../images/fundo-tons-pasteis.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.cabecalho {
+    padding: 10px;
+    background-color: rgb(59, 59, 59);
+}
+
+.cabecalho .logo {
+    display: inline-block;
+    max-width: 50px;
+}
+
+.cabecalho nav {
+    float: right;
+}
+
+.cabecalho nav li {
+    display: inline-block;
+    padding: 10px;
+}
+
+.cabecalho nav li a {
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(2, auto);
+    font-size: 17px;
+}
+
+.container nav li a {
+    text-decoration: none;
+}
+
+
+.cartoes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+
+.post-it {
+    width: 200px;
+    height: 200px;
+    background-color: #fff;
+    border: 2px solid #333;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.amarelo {
+    background-color: #ffec40;
+}
+
+.pink {
+    background-color: #ff66b2;
+}
+
+.azul {
+    background-color: cadetblue;
+}
+
+.verde {
+    background-color: aquamarine;
+}
+
+.note {
+    width: 100%;
+    height: 100%;
+    border: none;
+    resize: none;
+    font-size: 16px;
+}
+
